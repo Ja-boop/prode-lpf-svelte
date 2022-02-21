@@ -34,6 +34,7 @@
 	}
 
 	function saveTemplateTeams() {
+		alert('esto hace algo');
 		window.localStorage.setItem('teams', JSON.stringify(TEMPLATE_TEAMS));
 	}
 
