@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/_app/assets/pages/index.svelte-19979432.css">
+	<link rel="modulepreload" href="/_app/start-c5378fcf.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-e5a6de6d.js">
+	<link rel="modulepreload" href="/_app/layout.svelte-7362a1c9.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-d4ecdf32.js">
+	</head>
+	<body>
+		<div>
+
+
+<div><input type="text" value="">
+	<button>Añadir Equipo</button></div>
+<button>Guardar Team</button>
+<button>Generar tabla</button>
+
+<div class="select-container svelte-efylsv"><div class="teams-container svelte-efylsv"><h3>Teams</h3>
+		</div>
+
+	<div class="local-container svelte-efylsv"><div class="local-title"><h3>Local</h3></div>
+		<div class="local-teams svelte-efylsv"></div></div>
+
+	<div class="away-container svelte-efylsv"><div class="away-title"><h3>Away</h3></div>
+		<div class="away-teams svelte-efylsv"></div></div>
+	<div><h3>Table</h3>
+		</div>
+</div>
+
+
+		<script type="module" data-hydrate="ksx2qu">
+		import { start } from "/_app/start-c5378fcf.js";
+		start({
+			target: document.querySelector('[data-hydrate="ksx2qu"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/layout.svelte-7362a1c9.js"),
+						import("/_app/pages/index.svelte-d4ecdf32.js")
+				],
+				url: new URL("http://sveltekit-prerender/"),
+				params: {}
+			}
+		});
+	</script></div>
+	</body>
+</html>
